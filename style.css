@@ -76,21 +76,32 @@ img {
 /* INIZIO PARTE RESPONSIVE */
 
 @media screen and (max-width: 419px){
-
+/*reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
   .row{
     width: 100%;
   }
-
+/*Lesson row*/
   #lezioni .row> .left,
   #lezioni .row> .right {
     width: 100%;
     padding: 10%; 
   }
+  /*Steps row*/
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
     width: 100%;
     padding: 10%; 
   }
+  #lezioni{
+    background-color: #f9f9f9;
+  }
+
 
 }
